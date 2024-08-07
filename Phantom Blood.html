@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color:blue;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border-color: yellow;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: black; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: blue;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+    <audio controls autoplay><source src="../Audio/pbop.ogg" type="audio/ogg"></audio>
+    <audio controls><source src="../Audio/JonathanTheme.ogg" type="audio/ogg"></audio>
+    <h6>BGM : Sono Chi no Sadame(OP) and Jonathan's Theme</h6>
+
+<h2>Jojo's Bizzare Adventure : Phantom Blood</h2>
+
+<button class="accordion">Main Plot</button>
+<div class="panel">
+  <p>The story is taking place on England, around 1868. George Joestar and Mary Joestar, the parents of the protagonist Jonathan Joestar, had a carriage accident. There was a person who saw them, Dario Brando, who immideately tried to steal from them. George Joestar  wakes up, and thought that Dario saved them. George asked Dario about his wife, that unfortunately passed away. Dario has a son, Dio Brando, that George adopted to "repay his debt" to Dario. Jonathan and Dio don't get along with each other, as Dio manipulates everyone around him to make Jonathan look bad, as part of his plan to take the Joestar's wealth. During this, Dio kissed Erina, who loved Jonathan, and stole her first kiss. This angered Jonathan and they have a fight. George Joestar has a Stone Mask, that reacts to blood, and Jonathan soon learned that it can be used to attain Immortality, that has been used by the Aztecs. In 1988, Dio poisoned George, and Jonathan quickly tried to find an antidote. He went to Ogre Street and there he found Robert E. O. Speedwagon, and befriends him. At the same time, Dio tests the stone mask to some drunkards, and surprised by the effect. The person he tried to test the stone mask on, surprised that it is still alive. The drunkard became a Vampire, that immideately overpowers Dio. Dio is saved by the sunlight, and realized that they cannot survive during the day. Jonathan and Speedwagon head back to the mansion with the antidote as an Evidence against Dio. Dio "surrendered".</p>
+  <img src="../Images/pb1.jpg" width="375px", height="auto">
+  <p> Dio used the Stone Mask on himself to turn him into a Vampire. During which he used George Joestar's blood to react to the Mask. Jonathan sets their mansion on fire to attempt to kill Dio, but failed. One day, Jonathan and Erina is walks around, and sees a man, named Will A. Zeppeli. Zeppeli intends to destroy the stone masks and tells Jonathan that Dio is still alive. Zeppeli teaches Jonathan an ancient breathing technique called Ripple, or Hamon. On November 30, 1888, Jonathan alongside Speedwagon and Zeppeli travel to the whereabouts of Dio. Dio createn an army of Zombies, which the protagonists fought. During this, Zeppeli dies and gave some of his Hamon energy to Jonathan. On December 1, 1888, joined by other Hamon Users, defeated Dio, and destroyed his body. Dio still survives by separating hid head from his body. Months have passed since then, Jonathan marries Erina on Febuary 2, 1889, and the next day they are onboard with a ship for a trip to America. Dio is aboard the ship, to try to transplant his head on Jonathan's body. A fighting occured and on Febuary 7,1889, Jonathan was mortally wounded, and used his last of his Hamon to manipulate the body of Dio's servant to sink ths ship. Jonathan died with Dio in his arms, and Erina escapes in a coffin that Dio hid in. Erina also saves a baby girl on the ship and brought it with her. Dio's story will continue on Part 3:Stardust Crusaders.</p>
+</div>
+
+<button class="accordion">Main JoJo/Villain</button>
+<div class="panel">
+  <p><h3>Jonathan Joestar</h3></p>
+  <p>He is a kind, gentleman that fights for the right thing, and is a manifestation of pure kindness. He eventually learns about Hamon.</p>
+  <p>Abilities:</p>
+  <p>Athletic/Intelligence-Enhanced capabilities</p>
+  <p>Hamon Overdrive-Basic use of hamon infused with his limbs</p>
+  <p>Zoom Punch-Dislocates and stretches the arms using hamon to extend its reach.</p>
+  <p>Sendo Hamon Overdrive-Infuses Hamon with his arms and sends it to an object.</p>
+  <p>Scarlet Overdrive-Charging Hamon to create a Hamon Flame.</p>
+  <p>Turquoise Blue Overdrive-Underwater Hamon charge to blast enemies.</p>
+  <p>Overdrive Barrage-Quick barrage of Hamon Overdrive punches.</p>
+  <p>Metal Silver Overdrive-Same as Sendo Hamon Overdrive, but is able to transfer to metals.</p>
+  <p>Sunlight Yellow Overdrive-A much more powerfule barrage of Hamon infuses punches comparable to the Sun.</p>
+  <p>Life Magnetism Overdrive-Jonathan draws all leaves nearby and makes a one giant leaf for a glider.</p>
+  <p>Healing-Using Hamon to heal.</p>
+  <p><h3>Dio Brando</h3></p>
+  <p>Dio became a vampire using the Stone Mask. He wreaked havoc in Jonathan's life, even stealing his body.</p>
+  <p>Abilities:</p>
+  <p>Immortality-Dio gained immortality but Hamon and Sunlight can kill it.</p>
+  <p>Enhanced Senses/Strength</p>
+  <p>Freezing-Dio can freeze his enemies</p>
+  <p>Blood Sucking-Dio can suck blood and regenerate stamina/energy.</p>
+  
+  </div>
+<button class="accordion">Parts List</button>
+<div class="panel">
+  <p>1.<a href="Phantom Blood.html">Phantom Blood</a></p>
+<p>2. <a href="Battle Tendency.html">Battle Tendency</a></p>
+<p>3. <a href="Stardust Crusaders.html">Stardust Crusaders</a></p>
+<p>4. <a href="Diamond is Unbreakable.html">Diamond is Unbreakable</a></p>
+<p><a href="../mainpage.html">MainPage</a></p>
+<p><a href="references.html">References</a></p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
